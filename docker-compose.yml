@@ -11,7 +11,7 @@ services:
       dockerfile: Dockerfile
     container_name: kankuu-ws
     ports:
-     - 9090:80
+     - ${HOST}:${PORT}:80
     networks:
       - dev_net
     restart: always
