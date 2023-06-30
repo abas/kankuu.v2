@@ -7,3 +7,5 @@ Dockerfile
 docker-compose.yml
 db.json
 themes
+.env
+.env.example
