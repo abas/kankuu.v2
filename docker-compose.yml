@@ -1,0 +1,17 @@
+version: "3"
+
+networks:
+  dev_net:
+
+services:
+  kankuu-ws:
+    image: kankuu/site:v1
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: kankuu-ws
+    ports:
+     - 9090:80
+    networks:
+      - dev_net
+    restart: always

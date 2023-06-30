@@ -1,0 +1,9 @@
+.github
+.dockerignore
+.gitignore
+node_modules
+public
+Dockerfile
+docker-compose.yml
+db.json
+themes
